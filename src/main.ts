@@ -12,7 +12,7 @@ async function bootstrap() {
 
   const app = await NestFactory.create(AppModule);
 
-  console.log('primer')
+  console.log('primer commit')
   app.setGlobalPrefix('api')
 
   app.useGlobalPipes(
